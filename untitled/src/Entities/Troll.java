@@ -15,7 +15,7 @@ public class Troll extends Case{
     @Override
     public String toString() {
         return "Troll{" +
-                "positionCase=" + getIndice() +
+                "indice =" + getIndice() +
                 '}';
     }
 
