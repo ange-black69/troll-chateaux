@@ -2,10 +2,12 @@ package Entities;
 
 public class Troll extends Case{
 
+    Chemin chemin;
     public Troll(Chemin chemin)
     {
-        // On met le troll a la position central du chemin
         super(chemin.getCasesList().length / 2);
+        this.chemin = chemin;
+        // On met le troll a la position central du chemin
         chemin.getCasesList()[this.getIndice()] = this;
     }
 
@@ -23,7 +25,7 @@ public class Troll extends Case{
      */
     public void deplacerVersJoueur1()
     {
-        setIndice(getIndice()-1);
+        chemin.changeCasePosition(getIndice(), getIndice()-1);
     }
 
     /**
@@ -31,6 +33,6 @@ public class Troll extends Case{
      */
     public void deplacerVersJoueur2()
     {
-        setIndice(getIndice()+1);
+        chemin.changeCasePosition(getIndice(), getIndice()+1);
     }
 }

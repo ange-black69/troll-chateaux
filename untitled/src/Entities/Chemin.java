@@ -30,6 +30,11 @@ public class Chemin
                 '}';
     }
 
+    /**
+     * Permute la position de deux cases de notre chemin
+     * @param indiceDepart
+     * @param indiceArrivee
+     */
     public void changeCasePosition(int indiceDepart, int indiceArrivee)
     {
         if(indiceDepart == indiceArrivee)
@@ -47,15 +52,23 @@ public class Chemin
         }
         if(case_arrivée instanceof EmptyCase)
         {
+            /**
+             * On permutte les cases d'arrivées et de départ de notre tableau
+             * de cases
+             */
             cases[indiceArrivee] = case_depart;
             cases[indiceDepart] = case_arrivée;
+            //On oublie pas de définir les nouveaux indices des cases !
+            case_depart.setIndice(indiceArrivee);
+            case_arrivée.setIndice(indiceDepart);
         }
         /*
         La case d'arrivée est un joueur
          */
         else if (case_arrivée instanceof Player)
         {
-
+            Main.logger.severe("aie aie aie");
+            return;
         }
     }
 
