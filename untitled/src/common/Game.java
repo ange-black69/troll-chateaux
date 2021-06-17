@@ -47,7 +47,7 @@ public class Game {
             System.out.println("------------DEFINITION DES STRATEGIES------------");
 
             joueur1.setPlayerStrategy(new RandomStrat());
-            joueur2.setPlayerStrategy(new PrudenteStrat());
+            joueur2.setPlayerStrategy(new RandomStrat());
 
             System.out.println("------------CONFRONTATION DES STRATEGIES------------");
 
@@ -87,12 +87,12 @@ public class Game {
     public void gameOver()
     {
         System.out.println("la partie est finie ! gamestate : " + gameState);
-        if(gameState == GameState.PLAYER_ONE_WIN)
+        if(gameState == GameState.PLAYER_ONE_WIN || gameState == GameState.TROLL_ON_PLAYER_TWO)
         {
             System.out.println("Le joueur 1 gagne !");
             return;
         }
-        if(gameState == GameState.PLAYER_TWO_WIN)
+        if(gameState == GameState.PLAYER_TWO_WIN || gameState == GameState.TROLL_ON_PLAYER_ONE)
         {
             System.out.println("Le joueur 2 gagne !");
             return;

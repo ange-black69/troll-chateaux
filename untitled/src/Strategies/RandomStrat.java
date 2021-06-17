@@ -2,14 +2,23 @@ package Strategies;
 
 import Entities.Player;
 
-import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class RandomStrat implements IStrategy{
     @Override
     public int apply(Player player) {
 
-        Random random = new Random();
-        int pierreALancer = random.nextInt(player.getStockPierre());
+        int pierreALancer = 0;
+
+        if(player.getStockPierre() <= 1)
+        {
+            pierreALancer = 1;
+        }
+        else
+        {
+            // On génére un nombre aléatoire de pierre à lancer entre 1 et le nombre de pierre disponible
+            pierreALancer = ThreadLocalRandom.current().nextInt(1,player.getStockPierre());
+        }
 
         if(player.lancerPierres(pierreALancer))
         {
