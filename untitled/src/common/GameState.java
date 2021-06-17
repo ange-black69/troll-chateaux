@@ -6,5 +6,7 @@ public enum GameState {
     PLAYER_TWO_NO_MORE_ROCKS,
     TROLL_ON_PLAYER_ONE,
     TROLL_ON_PLAYER_TWO,
-    FINISHED
+    PLAYER_ONE_WIN,
+    PLAYER_TWO_WIN,
+    DRAW
 }

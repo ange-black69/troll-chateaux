@@ -6,7 +6,12 @@ public class PrudenteStrat implements IStrategy{
 
     @Override
     public int apply(Player player) {
-        int currentStockPierre = player.getStockPierre();
+        if(player.lancerPierres(1))
+        {
+            System.out.println("[PrudenteStrat] appliqué à " +  player.toString());
+            return 1;
+        }
+
         return 0;
     }
 }

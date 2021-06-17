@@ -5,6 +5,7 @@ import Entities.Player;
 import Entities.Troll;
 import Strategies.DumbStrat;
 import Strategies.PrudenteStrat;
+import Strategies.RandomStrat;
 import Strategies.StrategySolver;
 
 public class Game {
@@ -24,14 +25,17 @@ public class Game {
     public Game(int tailleChemin)
     {
         this.tailleChemin = tailleChemin;
-        chemin = new Chemin(tailleChemin);
+        System.out.println("--------- INITIALISATION DE BASE ---------");
 
+        chemin = new Chemin(this,tailleChemin);
         joueur1 = new Player(10, 0, (short)1,this);
         joueur2 = new Player(10, tailleChemin -1, (short)2, this);
-
-    /*    Main.logger.info("joueur 1 : " + joueur1.toString());
-        Main.logger.info("joueur 2 : " + joueur2.toString());*/
         troll = new Troll(chemin);
+
+        System.out.println(chemin.toString());
+        System.out.println(joueur1.toString());
+        System.out.println(joueur2.toString());
+        System.out.println(troll.toString());
 
         gameState = GameState.BEGIN;
 
@@ -42,7 +46,7 @@ public class Game {
 
             System.out.println("------------DEFINITION DES STRATEGIES------------");
 
-            joueur1.setPlayerStrategy(new DumbStrat());
+            joueur1.setPlayerStrategy(new RandomStrat());
             joueur2.setPlayerStrategy(new PrudenteStrat());
 
             System.out.println("------------CONFRONTATION DES STRATEGIES------------");
@@ -55,11 +59,6 @@ public class Game {
         }
 
         gameOver();
-
-
-
-
-
 
 
     }
@@ -87,14 +86,20 @@ public class Game {
 
     public void gameOver()
     {
-        System.out.println("la partie est finie !");
-        if(gameState == GameState.PLAYER_ONE_NO_MORE_ROCKS)
+        System.out.println("la partie est finie ! gamestate : " + gameState);
+        if(gameState == GameState.PLAYER_ONE_WIN)
         {
-            System.out.println("Le joueur 1 n'a plus de pierres à lancer !");
+            System.out.println("Le joueur 1 gagne !");
+            return;
         }
-        else if(gameState == GameState.PLAYER_TWO_NO_MORE_ROCKS)
+        if(gameState == GameState.PLAYER_TWO_WIN)
         {
-            System.out.println("Le joueur 1 n'a plus de pierres à lancer !");
+            System.out.println("Le joueur 2 gagne !");
+            return;
+        }
+        if(gameState == GameState.DRAW)
+        {
+            System.out.println("Match nul !");
         }
 
     }

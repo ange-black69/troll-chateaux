@@ -1,13 +1,15 @@
 package Entities;
 
 import common.Game;
+import common.GameState;
 import common.Main;
 
 public class Chemin
 {
     private Case[] cases;
+    private final Game game;
 
-    public Chemin(int nombreCases)
+    public Chemin(Game game, int nombreCases)
     {
         cases = new Case[nombreCases];
 
@@ -16,6 +18,7 @@ public class Chemin
             // Création des cases du chemin avec les différents indices
             cases[i] = (new EmptyCase(i));
         }
+        this.game = game;
     }
 
     public Case[] getCasesList()
@@ -76,10 +79,13 @@ public class Chemin
             if(p.playerNumber == 1)
             {
             // Le joueur I a perdu
+                game.setGameState(GameState.TROLL_ON_PLAYER_ONE);
+
             }
             if(p.playerNumber == 2)
             {
                 // Le joueur II a perdu !
+                game.setGameState(GameState.TROLL_ON_PLAYER_TWO);
             }
 
             return;
@@ -89,25 +95,35 @@ public class Chemin
     public void afficherChemin()
     {
         StringBuilder sb = new StringBuilder();
+
+        sb.append('|');
         for(Case c : this.getCasesList())
         {
             if(c instanceof Player)
             {
-                sb.append("J");
+                Player p = (Player)c;
+                if(p.playerNumber == 1)
+                {
+                    sb.append("J1-");
+                }
+                else
+                {
+                    sb.append("-J2");
+                }
+
             }
             if(c instanceof Troll)
             {
-                sb.append("T");
+                sb.append("-T-");
             }
             if(c instanceof EmptyCase)
             {
-                sb.append("C");
+                sb.append("-C-");
             }
 
 
         }
-
-        System.out.println("---- Affichage du chemin ----");
+        sb.append('|');
         System.out.println(sb.toString());
 
     }
