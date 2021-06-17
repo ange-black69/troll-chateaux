@@ -1,5 +1,6 @@
 package Entities;
 
+import common.Game;
 import common.Main;
 
 public class Chemin
@@ -32,10 +33,11 @@ public class Chemin
 
     /**
      * Permute la position de deux cases de notre chemin
+     * Essentiellement pour bouger la position du troll;
      * @param indiceDepart
      * @param indiceArrivee
      */
-    public void changeCasePosition(int indiceDepart, int indiceArrivee)
+    public void deplacerTroll(int indiceDepart, int indiceArrivee)
     {
         if(indiceDepart == indiceArrivee)
         {
@@ -67,7 +69,19 @@ public class Chemin
          */
         else if (case_arrivée instanceof Player)
         {
-            Main.logger.severe("aie aie aie");
+            // On va récuperer le joueur en question
+            Player p = (Player)case_arrivée;
+            if(p == null) {return;}
+
+            if(p.playerNumber == 1)
+            {
+            // Le joueur I a perdu
+            }
+            if(p.playerNumber == 2)
+            {
+                // Le joueur II a perdu !
+            }
+
             return;
         }
     }

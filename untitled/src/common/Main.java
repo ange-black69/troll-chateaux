@@ -16,9 +16,9 @@ public class Main
 
     public static void main (String[] args)
     {
-        logger.log(Level.INFO, "Lancement du jeu du troll");
+        logger.log(Level.INFO, "Lancement du jeu du troll avec un chemin de taille 7");
 
-        game = new Game();
+        game = new Game(7);
 
     }
 }

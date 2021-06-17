@@ -9,7 +9,15 @@ public class DumbStrat implements IStrategy{
 
     @Override
     public int apply(Player player) {
-        player.lancerPierres(1);
-        return 1;
+        int currentStockPierre = player.getStockPierre();
+        if(player.lancerPierres(currentStockPierre))
+        {
+            System.out.println("[DumbStrat] appliqué à " +  player.toString());
+            return currentStockPierre;
+        }
+
+        return 0;
+
+
     }
 }

@@ -2,6 +2,7 @@ package Entities;
 
 import Strategies.IStrategy;
 import common.Game;
+import common.GameState;
 import common.Main;
 
 public class Player extends Case
@@ -64,14 +65,37 @@ public class Player extends Case
         return this.playerStrategy.apply(this);
     }
 
-    public void lancerPierres(int nombreDePierres)
+    /**
+     * lance ou des pierres
+     * @param nombreDePierres
+     * @return True si le joueur a pu les lancer; False sinon
+     */
+    public boolean lancerPierres(int nombreDePierres)
     {
+        if(stockPierre <= 0)
+        {
+            if(playerNumber == 1)
+            {
+                game.setGameState(GameState.PLAYER_ONE_NO_MORE_ROCKS);
+                return false;
+            }
+            else if(playerNumber == 2)
+            {
+                game.setGameState(GameState.PLAYER_TWO_NO_MORE_ROCKS);
+                return false;
+            }
+            return false;
+
+        }
         if(stockPierre < nombreDePierres)
         {
-            Main.logger.info(toString() +" stock de pierre Insufisant !");
-            return;
+            System.out.println(toString() +" stock de pierre Insufisant !");
+            return false;
         }
+
         stockPierre -= nombreDePierres;
+        System.out.println(toString() +" a lancé " + nombreDePierres + " ! ");
+        return true;
     }
 
 

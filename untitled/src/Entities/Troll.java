@@ -25,7 +25,9 @@ public class Troll extends Case{
      */
     public void deplacerVersJoueur1()
     {
-        chemin.changeCasePosition(getIndice(), getIndice()-1);
+        chemin.deplacerTroll(getIndice(), getIndice()-1);
+        System.out.println("le troll se déplace vers le joueur 1 !");
+        System.out.println(toString());
     }
 
     /**
@@ -33,6 +35,8 @@ public class Troll extends Case{
      */
     public void deplacerVersJoueur2()
     {
-        chemin.changeCasePosition(getIndice(), getIndice()+1);
+        chemin.deplacerTroll(getIndice(), getIndice()+1);
+        System.out.println("le troll se déplace vers le joueur 2 !");
+        System.out.println(toString());
     }
 }
