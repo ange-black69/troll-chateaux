@@ -5,21 +5,19 @@ import Entities.Player;
 import java.util.*;
 
 /**
- * Stratégie prudente optimale pour un joueur est de jouer
- * 2 3 2 2 1 car il y a une seule configuration de défaite possible dans le cas :
+ * Stratégie contrant la stratégie prudente optimale.
+ * 3 4 3
  * 10 pierres; 7 cases
  * */
-public class PrudenteStrat implements IStrategy{
+public class CounterOptimalStrat implements IStrategy{
 
-    private LinkedList<Integer> listeDesCoups = new LinkedList<Integer>();
+    private static LinkedList<Integer> listeDesCoups = new LinkedList<Integer>();
 
-    public PrudenteStrat()
+    public CounterOptimalStrat()
     {
-        listeDesCoups.add(2);
         listeDesCoups.add(3);
-        listeDesCoups.add(2);
-        listeDesCoups.add(2);
-        listeDesCoups.add(1);
+        listeDesCoups.add(4);
+        listeDesCoups.add(3);
     }
 
     @Override

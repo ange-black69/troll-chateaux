@@ -3,11 +3,12 @@ package common;
 import Entities.Chemin;
 import Entities.Player;
 import Entities.Troll;
-import Strategies.DumbStrat;
-import Strategies.PrudenteStrat;
-import Strategies.RandomStrat;
-import Strategies.StrategySolver;
+import Strategies.*;
 
+/**
+ * Class représentant notre jeu avec des instances des joueurs, de troll, de chemin et d'un agrégateur des
+ * stratégies.
+ */
 public class Game {
 
     private Troll troll;
@@ -21,16 +22,27 @@ public class Game {
     private final StrategySolver strategySolver = new StrategySolver(this);
 
     private int tailleChemin;
+    private int nombreDePierresDepart;
 
-    public Game(int tailleChemin)
+    /**
+     * Construit un jeu avec la taille de chemin (nombre de cases) et le nombre de pierres que possède chaque joueurs
+     * au début de la partie
+     * @param tailleChemin : nombre de cases composant le chemin.
+     * @param nombreDePierresDepart : nombre de pierres dans le stock des joueurs.
+     */
+    public Game(int tailleChemin, int nombreDePierresDepart)
     {
         this.tailleChemin = tailleChemin;
+        this.nombreDePierresDepart = nombreDePierresDepart;
+
         System.out.println("--------- INITIALISATION DE BASE ---------");
 
         chemin = new Chemin(this,tailleChemin);
-        joueur1 = new Player(10, 0, (short)1,this);
-        joueur2 = new Player(10, tailleChemin -1, (short)2, this);
-        troll = new Troll(chemin);
+        joueur1 = new Player(nombreDePierresDepart, 0, (short)1,this);
+        joueur2 = new Player(nombreDePierresDepart, tailleChemin -1, (short)2, this);
+
+        //Construit notre troll à mi-chemin des deux joueurs
+        troll = new Troll(chemin,chemin.getCasesList().length / 2);
 
         System.out.println(chemin.toString());
         System.out.println(joueur1.toString());
@@ -39,15 +51,20 @@ public class Game {
 
         gameState = GameState.BEGIN;
 
+        System.out.println("------------DEFINITION DES STRATEGIES------------");
+
+        /*
+        Comme nous ne sommes pas en stratégie mixte, on définit la stratégie de chaque joueur une fois pour toute.
+        On aurait pu placer ces deux lignes dans notre while si nous voulions faire en sorte qu'a chaque tour, un
+        joueur ait la possibilité de changer de stratégie.
+         */
+        joueur1.setPlayerStrategy(new PrudenteStrat());
+        joueur2.setPlayerStrategy(new PrudenteStrat());
+
         while(gameState == GameState.BEGIN)
         {
 
             chemin.afficherChemin();
-
-            System.out.println("------------DEFINITION DES STRATEGIES------------");
-
-            joueur1.setPlayerStrategy(new RandomStrat());
-            joueur2.setPlayerStrategy(new RandomStrat());
 
             System.out.println("------------CONFRONTATION DES STRATEGIES------------");
 

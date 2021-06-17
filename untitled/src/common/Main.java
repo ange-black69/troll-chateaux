@@ -18,7 +18,7 @@ public class Main
     {
         logger.log(Level.INFO, "Lancement du jeu du troll avec un chemin de taille 7");
 
-        game = new Game(7);
+        game = new Game(7, 10);
 
     }
 }

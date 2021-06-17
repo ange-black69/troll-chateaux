@@ -3,9 +3,15 @@ package Entities;
 public class Troll extends Case{
 
     Chemin chemin;
-    public Troll(Chemin chemin)
+
+    /**
+     * Construit notre Troll à la position dans notre chemin
+     * @param chemin
+     * @param posIndice
+     */
+    public Troll(Chemin chemin, int posIndice)
     {
-        super(chemin.getCasesList().length / 2);
+        super(posIndice);
         this.chemin = chemin;
         // On met le troll a la position central du chemin
         chemin.getCasesList()[this.getIndice()] = this;
