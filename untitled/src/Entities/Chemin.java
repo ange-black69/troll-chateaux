@@ -47,6 +47,7 @@ public class Chemin
             Main.logger.severe("indice de départ = indice d'arrivée !!");
             return;
         }
+
         Case case_depart = cases[indiceDepart];
         Case case_arrivée = cases[indiceArrivee];
 

@@ -61,6 +61,9 @@ public class Game {
         joueur1.setPlayerStrategy(new PrudenteStrat());
         joueur2.setPlayerStrategy(new CounterOptimalStrat());
 
+        /*
+        Boucle principale du jeu
+         */
         while(gameState == GameState.BEGIN)
         {
 
@@ -75,8 +78,6 @@ public class Game {
         }
 
         gameOver();
-
-
     }
 
     public Troll getTroll() {
