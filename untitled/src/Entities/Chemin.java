@@ -80,12 +80,14 @@ public class Chemin
             {
             // Le joueur I a perdu
                 game.setGameState(GameState.TROLL_ON_PLAYER_ONE);
+                return;
 
             }
             if(p.playerNumber == 2)
             {
                 // Le joueur II a perdu !
                 game.setGameState(GameState.TROLL_ON_PLAYER_TWO);
+                return;
             }
 
             return;

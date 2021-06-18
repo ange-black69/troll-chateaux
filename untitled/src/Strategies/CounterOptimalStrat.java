@@ -6,7 +6,7 @@ import java.util.*;
 
 /**
  * Stratégie contrant la stratégie prudente optimale.
- * 3 4 3
+ * 3 3 3 1
  * 10 pierres; 7 cases
  * */
 public class CounterOptimalStrat implements IStrategy{

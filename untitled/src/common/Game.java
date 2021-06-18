@@ -59,7 +59,7 @@ public class Game {
         joueur ait la possibilité de changer de stratégie.
          */
         joueur1.setPlayerStrategy(new PrudenteStrat());
-        joueur2.setPlayerStrategy(new PrudenteStrat());
+        joueur2.setPlayerStrategy(new CounterOptimalStrat());
 
         while(gameState == GameState.BEGIN)
         {
@@ -72,14 +72,12 @@ public class Game {
 
             chemin.afficherChemin();
 
-
         }
 
         gameOver();
 
 
     }
-
 
     public Troll getTroll() {
         return troll;

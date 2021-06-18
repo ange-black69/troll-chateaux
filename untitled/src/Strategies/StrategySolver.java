@@ -32,22 +32,13 @@ public class StrategySolver {
         int result_s1 = p1.applyStrategy();
         int result_s2 = p2.applyStrategy();
 
-        // Si on joue toujours !
-        if(game.getGameState() == GameState.BEGIN) {
         /*
         Les deux joueurs ont envoyés le meme nombre de pierres.
         Egalité !
          */
             if (result_s1 == result_s2) {
                 System.out.println("les deux joueurs ont envoyé le meme nombre de pierre, le troll ne bouge pas");
-                if(game.getGameState() == GameState.PLAYER_ONE_NO_MORE_ROCKS)
-                {
-                    handlePlayer1NoMoreRocks(p1,p2);
-                }
-                else if(game.getGameState() == GameState.PLAYER_TWO_NO_MORE_ROCKS)
-                {
-                    handlePlayer2NoMoreRocks(p1,p2);
-                }
+                return;
             }
         /*
         Si le joueur 1 a envoyé plus de pierres,
@@ -60,28 +51,33 @@ public class StrategySolver {
                 System.out.println("la stratégie du joueur 2 est gagnante sur le joueur 1 !");
                 game.getTroll().deplacerVersJoueur1();
             }
-        }
-        // La partie est terminée pour x ou y raisons
-        else
-        {
-            /*
-            Un des deux joueurs n'a plus de pierres à lancer !
+
+            /*Si le joueur 1 n'a plus de pierre, on verifie la position du troll, et on l'avance que si un des deux
+            joueurs n'a pas perdu !
              */
-            if(game.getGameState() == GameState.PLAYER_ONE_NO_MORE_ROCKS)
+            if(p1.getStockPierre() == 0 && game.getGameState() == GameState.BEGIN)
             {
-
-                handlePlayer1NoMoreRocks(p1,p2);
-
+                handlePlayer1NoMoreRocks(p1, p2);
+                return;
             }
-            else if (game.getGameState() == GameState.PLAYER_TWO_NO_MORE_ROCKS)
+            /*Si le joueur 2 n'a plus de pierre, on verifie la position du troll, et on l'avance que si un des deux
+            joueurs n'a pas perdu !
+             */
+            if(p2.getStockPierre() == 0 && game.getGameState() == GameState.BEGIN)
             {
-                handlePlayer2NoMoreRocks(p1,p2);
+                handlePlayer2NoMoreRocks(p1, p2);
+                return;
             }
-
-        }
 
     }
 
+    /**
+     * Fonction permettant de gérer le cas ou le joueur 1 n'a plus de pierre.
+     * On va appliquer ce que nous dit le sujet : on deplace le troll le nombre de fois qu'il reste de pierres aux
+     * joueur 2
+     * @param p1 Player
+     * @param p2 Player
+     */
     private void handlePlayer1NoMoreRocks(Player p1, Player p2)
     {
         System.out.println("[StrategySolver] La partie est terminée car le joueur 1 n'a plus de pierre !");
@@ -122,6 +118,13 @@ public class StrategySolver {
 
         }
     }
+    /**
+     * Fonction permettant de gérer le cas ou le joueur 2 n'a plus de pierre.
+     * On va appliquer ce que nous dit le sujet : on deplace le troll le nombre de fois qu'il reste de pierres aux
+     * joueur 1
+     * @param p1 : Player
+     * @param p2 : Player
+     */
     private void handlePlayer2NoMoreRocks(Player p1, Player p2)
     {
         System.out.println("[StrategySolver] La partie est terminée car le joueur 2 n'a plus de pierre !");
