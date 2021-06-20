@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="Troll_Nath_Mike">
+    <output-path>$PROJECT_DIR$/out/artifacts/Troll_Nath_Mike</output-path>
+    <root id="root">
+      <element id="archive" name="run.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="untitled" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -15,10 +15,11 @@ public class CounterOptimalStrat2 implements IStrategy{
 
     public CounterOptimalStrat2()
     {
-        listeDesCoups.add(3);
-        listeDesCoups.add(3);
-        listeDesCoups.add(3);
         listeDesCoups.add(1);
+        listeDesCoups.add(1);
+        listeDesCoups.add(2);
+        listeDesCoups.add(2);
+        listeDesCoups.add(2);
     }
 
     @Override

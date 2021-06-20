@@ -37,12 +37,12 @@ public class Game {
         this.tailleChemin = tailleChemin;
         this.nombreDePierresDepart = nombreDePierresDepart;
 
-        try {
+       /* try {
             Main.fileWriter.write("Initilisation d'une partie avec chemin de taille " + tailleChemin +" et un nombre de " +
                     "pierre de " + nombreDePierresDepart +" \n");
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
         System.out.println("--------- INITIALISATION DE BASE ---------");
 
@@ -58,7 +58,7 @@ public class Game {
         System.out.println(joueur2.toString());
         System.out.println(troll.toString());
 
-        try {
+        /*try {
             Main.fileWriter.write("--CHEMIN & TROLL--" +"\n");
             Main.fileWriter.write(chemin.toString() +"\n");
             Main.fileWriter.write(troll.toString() +"\n");
@@ -67,7 +67,7 @@ public class Game {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+*/
         gameState = GameState.BEGIN;
 
         System.out.println("------------DEFINITION DES STRATEGIES------------");
@@ -77,10 +77,10 @@ public class Game {
         On aurait pu placer ces deux lignes dans notre while si nous voulions faire en sorte qu'a chaque tour, un
         joueur ait la possibilité de changer de stratégie.
          */
-        joueur1.setPlayerStrategy(new RandomStrat());
+        joueur1.setPlayerStrategy(new PrudenteStrat());
         joueur2.setPlayerStrategy(new RandomStrat());
 
-        try {
+      /*  try {
             Main.fileWriter.write("--Joueurs--" +"\n");
 
             Main.fileWriter.write(joueur1.toString() +"\n");
@@ -89,7 +89,7 @@ public class Game {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+*/
         /*
         Boucle principale du jeu
          */
@@ -132,24 +132,32 @@ public class Game {
     public void gameOver()
     {
         System.out.println("la partie est finie ! gamestate : " + gameState);
-        if(gameState == GameState.PLAYER_ONE_WIN || gameState == GameState.TROLL_ON_PLAYER_TWO)
+        if(gameState == GameState.PLAYER_ONE_WIN || gameState == GameState.TROLL_ON_PLAYER_TWO
+                || gameState == GameState.PLAYER_TWO_NO_MORE_ROCKS)
         {
             System.out.println("Le joueur 1 gagne !");
 
+            Main.player1WinCounter++;
+
             try {
-                Main.fileWriter.write("Le gagnant de cette partie est le joueur 1 ! " + "\n");
+                //Main.fileWriter.write("Le gagnant de cette partie est le joueur 1 ! " + "\n");
+                Main.fileWriter.write("J1");
                 Main.fileWriter.write("\n");
             } catch (IOException e) {
                 e.printStackTrace();
             }
             return;
         }
-        if(gameState == GameState.PLAYER_TWO_WIN || gameState == GameState.TROLL_ON_PLAYER_ONE)
+        if(gameState == GameState.PLAYER_TWO_WIN || gameState == GameState.TROLL_ON_PLAYER_ONE
+                || gameState == GameState.PLAYER_ONE_NO_MORE_ROCKS)
         {
             System.out.println("Le joueur 2 gagne !");
 
+            Main.player2WinCounter++;
+
             try {
-                Main.fileWriter.write("Le gagnant de cette partie est le joueur 2 ! " + "\n");
+                //Main.fileWriter.write("Le gagnant de cette partie est le joueur 2 ! " + "\n");
+                Main.fileWriter.write("J2");
                 Main.fileWriter.write("\n");
             } catch (IOException e) {
                 e.printStackTrace();
@@ -159,9 +167,11 @@ public class Game {
         if(gameState == GameState.DRAW)
         {
             System.out.println("Match nul !");
+            Main.drawCounter++;
 
             try {
-                Main.fileWriter.write("Cette partie est un match nul ! " + "\n");
+               // Main.fileWriter.write("Cette partie est un match nul ! " + "\n");
+                Main.fileWriter.write("N");
                 Main.fileWriter.write("\n");
             } catch (IOException e) {
                 e.printStackTrace();
