@@ -5,9 +5,12 @@ import Entities.Player;
 import Entities.Troll;
 import Strategies.*;
 
+import java.io.IOException;
+
 /**
  * Class représentant notre jeu avec des instances des joueurs, de troll, de chemin et d'un agrégateur des
  * stratégies.
+ * Possibilité de définir la taille du chemin ainsi que le nombre de pierre dont dispose chaque joueur.
  */
 public class Game {
 
@@ -27,13 +30,19 @@ public class Game {
     /**
      * Construit un jeu avec la taille de chemin (nombre de cases) et le nombre de pierres que possède chaque joueurs
      * au début de la partie
-     * @param tailleChemin : nombre de cases composant le chemin.
-     * @param nombreDePierresDepart : nombre de pierres dans le stock des joueurs.
+     * @param tailleChemin  nombre de cases composant le chemin.
+     * @param nombreDePierresDepart  nombre de pierres dans le stock des joueurs.
      */
-    public Game(int tailleChemin, int nombreDePierresDepart)
-    {
+    public Game(int tailleChemin, int nombreDePierresDepart) {
         this.tailleChemin = tailleChemin;
         this.nombreDePierresDepart = nombreDePierresDepart;
+
+        try {
+            Main.fileWriter.write("Initilisation d'une partie avec chemin de taille " + tailleChemin +" et un nombre de " +
+                    "pierre de " + nombreDePierresDepart +" \n");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         System.out.println("--------- INITIALISATION DE BASE ---------");
 
@@ -49,6 +58,16 @@ public class Game {
         System.out.println(joueur2.toString());
         System.out.println(troll.toString());
 
+        try {
+            Main.fileWriter.write("--CHEMIN & TROLL--" +"\n");
+            Main.fileWriter.write(chemin.toString() +"\n");
+            Main.fileWriter.write(troll.toString() +"\n");
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         gameState = GameState.BEGIN;
 
         System.out.println("------------DEFINITION DES STRATEGIES------------");
@@ -58,8 +77,18 @@ public class Game {
         On aurait pu placer ces deux lignes dans notre while si nous voulions faire en sorte qu'a chaque tour, un
         joueur ait la possibilité de changer de stratégie.
          */
-        joueur1.setPlayerStrategy(new PrudenteStrat());
-        joueur2.setPlayerStrategy(new CounterOptimalStrat());
+        joueur1.setPlayerStrategy(new RandomStrat());
+        joueur2.setPlayerStrategy(new RandomStrat());
+
+        try {
+            Main.fileWriter.write("--Joueurs--" +"\n");
+
+            Main.fileWriter.write(joueur1.toString() +"\n");
+            Main.fileWriter.write(joueur2.toString() +"\n");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         /*
         Boucle principale du jeu
@@ -106,16 +135,37 @@ public class Game {
         if(gameState == GameState.PLAYER_ONE_WIN || gameState == GameState.TROLL_ON_PLAYER_TWO)
         {
             System.out.println("Le joueur 1 gagne !");
+
+            try {
+                Main.fileWriter.write("Le gagnant de cette partie est le joueur 1 ! " + "\n");
+                Main.fileWriter.write("\n");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             return;
         }
         if(gameState == GameState.PLAYER_TWO_WIN || gameState == GameState.TROLL_ON_PLAYER_ONE)
         {
             System.out.println("Le joueur 2 gagne !");
+
+            try {
+                Main.fileWriter.write("Le gagnant de cette partie est le joueur 2 ! " + "\n");
+                Main.fileWriter.write("\n");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             return;
         }
         if(gameState == GameState.DRAW)
         {
             System.out.println("Match nul !");
+
+            try {
+                Main.fileWriter.write("Cette partie est un match nul ! " + "\n");
+                Main.fileWriter.write("\n");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
 
     }

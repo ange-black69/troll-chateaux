@@ -1,0 +1,880 @@
+Numéro de partie : 1
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@511d50c0cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@60e53b93, playerStrategy=Strategies.RandomStrat@5e2de80c}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@60e53b93, playerStrategy=Strategies.RandomStrat@1d44bcfa}
+Numéro de partie : 2
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@5e481248cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@66d3c617, playerStrategy=Strategies.RandomStrat@63947c6b}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@66d3c617, playerStrategy=Strategies.RandomStrat@2b193f2d}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 3
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@355da254cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4dc63996, playerStrategy=Strategies.RandomStrat@d716361}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4dc63996, playerStrategy=Strategies.RandomStrat@6ff3c5b5}
+Numéro de partie : 4
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@3764951dcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4b1210ee, playerStrategy=Strategies.RandomStrat@4d7e1886}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4b1210ee, playerStrategy=Strategies.RandomStrat@3cd1a2f1}
+Numéro de partie : 5
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@2f0e140bcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@7440e464, playerStrategy=Strategies.RandomStrat@49476842}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@7440e464, playerStrategy=Strategies.RandomStrat@78308db1}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 6
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@27c170f0cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@5451c3a8, playerStrategy=Strategies.RandomStrat@2626b418}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@5451c3a8, playerStrategy=Strategies.RandomStrat@5a07e868}
+Numéro de partie : 7
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@76ed5528cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@2c7b84de, playerStrategy=Strategies.RandomStrat@3fee733d}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@2c7b84de, playerStrategy=Strategies.RandomStrat@5acf9800}
+Numéro de partie : 8
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@4617c264cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@36baf30c, playerStrategy=Strategies.RandomStrat@7a81197d}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@36baf30c, playerStrategy=Strategies.RandomStrat@5ca881b5}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 9
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@24d46ca6cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4517d9a3, playerStrategy=Strategies.RandomStrat@372f7a8d}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4517d9a3, playerStrategy=Strategies.RandomStrat@2f92e0f4}
+Numéro de partie : 10
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@28a418fccases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@5305068a, playerStrategy=Strategies.RandomStrat@1f32e575}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@5305068a, playerStrategy=Strategies.RandomStrat@279f2327}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 11
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@2ff4acd0cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@54bedef2, playerStrategy=Strategies.RandomStrat@5caf905d}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@54bedef2, playerStrategy=Strategies.RandomStrat@27716f4}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 12
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@8efb846cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@2a84aee7, playerStrategy=Strategies.RandomStrat@a09ee92}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@2a84aee7, playerStrategy=Strategies.RandomStrat@30f39991}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 13
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@452b3a41cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4a574795, playerStrategy=Strategies.RandomStrat@f6f4d33}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4a574795, playerStrategy=Strategies.RandomStrat@23fc625e}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 14
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@3f99bd52cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4f023edb, playerStrategy=Strategies.RandomStrat@3a71f4dd}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4f023edb, playerStrategy=Strategies.RandomStrat@7adf9f5f}
+Numéro de partie : 15
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@85ede7bcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@5674cd4d, playerStrategy=Strategies.RandomStrat@63961c42}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@5674cd4d, playerStrategy=Strategies.RandomStrat@65b54208}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 16
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1be6f5c3cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@6b884d57, playerStrategy=Strategies.RandomStrat@38af3868}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@6b884d57, playerStrategy=Strategies.RandomStrat@77459877}
+Cette partie est un match nul ! 
+
+Numéro de partie : 17
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@5b2133b1cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@72ea2f77, playerStrategy=Strategies.RandomStrat@33c7353a}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@72ea2f77, playerStrategy=Strategies.RandomStrat@681a9515}
+Numéro de partie : 18
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@3af49f1ccases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@19469ea2, playerStrategy=Strategies.RandomStrat@13221655}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@19469ea2, playerStrategy=Strategies.RandomStrat@2f2c9b19}
+Numéro de partie : 19
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@31befd9fcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@1c20c684, playerStrategy=Strategies.RandomStrat@1fb3ebeb}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@1c20c684, playerStrategy=Strategies.RandomStrat@548c4f57}
+Numéro de partie : 20
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1218025ccases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@816f27d, playerStrategy=Strategies.RandomStrat@87aac27}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@816f27d, playerStrategy=Strategies.RandomStrat@3e3abc88}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 21
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@6ce253f1cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@53d8d10a, playerStrategy=Strategies.RandomStrat@e9e54c2}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@53d8d10a, playerStrategy=Strategies.RandomStrat@65ab7765}
+Cette partie est un match nul ! 
+
+Numéro de partie : 22
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1b28cdfacases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@eed1f14, playerStrategy=Strategies.RandomStrat@7229724f}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@eed1f14, playerStrategy=Strategies.RandomStrat@4c873330}
+Numéro de partie : 23
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@119d7047cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@776ec8df, playerStrategy=Strategies.RandomStrat@4eec7777}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@776ec8df, playerStrategy=Strategies.RandomStrat@3b07d329}
+Numéro de partie : 24
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@41629346cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@404b9385, playerStrategy=Strategies.RandomStrat@6d311334}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@404b9385, playerStrategy=Strategies.RandomStrat@682a0b20}
+Numéro de partie : 25
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@3d075dc0cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@214c265e, playerStrategy=Strategies.RandomStrat@448139f0}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@214c265e, playerStrategy=Strategies.RandomStrat@7cca494b}
+Numéro de partie : 26
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@7ba4f24fcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@3b9a45b3, playerStrategy=Strategies.RandomStrat@7699a589}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@3b9a45b3, playerStrategy=Strategies.RandomStrat@58372a00}
+Numéro de partie : 27
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@4dd8dc3cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@6d03e736, playerStrategy=Strategies.RandomStrat@568db2f2}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@6d03e736, playerStrategy=Strategies.RandomStrat@378bf509}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 28
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@5fd0d5aecases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@2d98a335, playerStrategy=Strategies.RandomStrat@16b98e56}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@2d98a335, playerStrategy=Strategies.RandomStrat@7ef20235}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 29
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@27d6c5e0cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4f3f5b24, playerStrategy=Strategies.RandomStrat@15aeb7ab}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4f3f5b24, playerStrategy=Strategies.RandomStrat@7b23ec81}
+Numéro de partie : 30
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@6acbcfc0cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@5f184fc6, playerStrategy=Strategies.RandomStrat@3feba861}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@5f184fc6, playerStrategy=Strategies.RandomStrat@5b480cf9}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 31
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@6f496d9fcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@723279cf, playerStrategy=Strategies.RandomStrat@10f87f48}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@723279cf, playerStrategy=Strategies.RandomStrat@b4c966a}
+Numéro de partie : 32
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@2f4d3709cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4e50df2e, playerStrategy=Strategies.RandomStrat@1d81eb93}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4e50df2e, playerStrategy=Strategies.RandomStrat@7291c18f}
+Numéro de partie : 33
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@34a245abcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@7cc355be, playerStrategy=Strategies.RandomStrat@6e8cf4c6}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@7cc355be, playerStrategy=Strategies.RandomStrat@12edcd21}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 34
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@34c45dcacases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@52cc8049, playerStrategy=Strategies.RandomStrat@5b6f7412}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@52cc8049, playerStrategy=Strategies.RandomStrat@27973e9b}
+Numéro de partie : 35
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@312b1daecases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@7530d0a, playerStrategy=Strategies.RandomStrat@27bc2616}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@7530d0a, playerStrategy=Strategies.RandomStrat@3941a79c}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 36
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@506e1b77cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4fca772d, playerStrategy=Strategies.RandomStrat@9807454}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4fca772d, playerStrategy=Strategies.RandomStrat@3d494fbf}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 37
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1ddc4ec2cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@133314b, playerStrategy=Strategies.RandomStrat@b1bc7ed}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@133314b, playerStrategy=Strategies.RandomStrat@7cd84586}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 38
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@30dae81cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@1b2c6ec2, playerStrategy=Strategies.RandomStrat@4edde6e5}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@1b2c6ec2, playerStrategy=Strategies.RandomStrat@70177ecd}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 39
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1e80bfe8cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@66a29884, playerStrategy=Strategies.RandomStrat@4769b07b}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@66a29884, playerStrategy=Strategies.RandomStrat@cc34f4d}
+Numéro de partie : 40
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@17a7cec2cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@65b3120a, playerStrategy=Strategies.RandomStrat@6f539caf}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@65b3120a, playerStrategy=Strategies.RandomStrat@79fc0f2f}
+Numéro de partie : 41
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@50040f0ccases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@2dda6444, playerStrategy=Strategies.RandomStrat@5e9f23b4}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@2dda6444, playerStrategy=Strategies.RandomStrat@4783da3f}
+Numéro de partie : 42
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@378fd1accases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@49097b5d, playerStrategy=Strategies.RandomStrat@6e2c634b}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@49097b5d, playerStrategy=Strategies.RandomStrat@37a71e93}
+Numéro de partie : 43
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@7e6cbb7acases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@7c3df479, playerStrategy=Strategies.RandomStrat@7106e68e}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@7c3df479, playerStrategy=Strategies.RandomStrat@7eda2dbb}
+Numéro de partie : 44
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@6576fe71cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@76fb509a, playerStrategy=Strategies.RandomStrat@300ffa5d}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@76fb509a, playerStrategy=Strategies.RandomStrat@1f17ae12}
+Numéro de partie : 45
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@4d405ef7cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@6193b845, playerStrategy=Strategies.RandomStrat@2e817b38}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@6193b845, playerStrategy=Strategies.RandomStrat@c4437c4}
+Numéro de partie : 46
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@433c675dcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@3f91beef, playerStrategy=Strategies.RandomStrat@1a6c5a9e}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@3f91beef, playerStrategy=Strategies.RandomStrat@37bba400}
+Numéro de partie : 47
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@179d3b25cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@254989ff, playerStrategy=Strategies.RandomStrat@5d099f62}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@254989ff, playerStrategy=Strategies.RandomStrat@37f8bb67}
+Numéro de partie : 48
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@49c2faaecases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@20ad9418, playerStrategy=Strategies.RandomStrat@31cefde0}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@20ad9418, playerStrategy=Strategies.RandomStrat@439f5b3d}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 49
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1d56ce6acases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@5197848c, playerStrategy=Strategies.RandomStrat@17f052a3}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@5197848c, playerStrategy=Strategies.RandomStrat@2e0fa5d3}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 50
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@5010be6cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@685f4c2e, playerStrategy=Strategies.RandomStrat@7daf6ecc}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@685f4c2e, playerStrategy=Strategies.RandomStrat@2e5d6d97}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 51
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@238e0d81cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@31221be2, playerStrategy=Strategies.RandomStrat@377dca04}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@31221be2, playerStrategy=Strategies.RandomStrat@728938a9}
+Numéro de partie : 52
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@21b8d17ccases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@6433a2, playerStrategy=Strategies.RandomStrat@5910e440}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@6433a2, playerStrategy=Strategies.RandomStrat@6267c3bb}
+Numéro de partie : 53
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@533ddbacases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@246b179d, playerStrategy=Strategies.RandomStrat@7a07c5b4}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@246b179d, playerStrategy=Strategies.RandomStrat@26a1ab54}
+Numéro de partie : 54
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@3d646c37cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@41cf53f9, playerStrategy=Strategies.RandomStrat@5a10411}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@41cf53f9, playerStrategy=Strategies.RandomStrat@2ef1e4fa}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 55
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@306a30c7cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@b81eda8, playerStrategy=Strategies.RandomStrat@68de145}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@b81eda8, playerStrategy=Strategies.RandomStrat@27fa135a}
+Numéro de partie : 56
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@46f7f36acases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@421faab1, playerStrategy=Strategies.RandomStrat@2b71fc7e}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@421faab1, playerStrategy=Strategies.RandomStrat@5ce65a89}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 57
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@25f38edccases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@1a86f2f1, playerStrategy=Strategies.RandomStrat@3eb07fd3}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@1a86f2f1, playerStrategy=Strategies.RandomStrat@506c589e}
+Numéro de partie : 58
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@69d0a921cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@446cdf90, playerStrategy=Strategies.RandomStrat@799f7e29}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@446cdf90, playerStrategy=Strategies.RandomStrat@4b85612c}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 59
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@277050dccases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@5c29bfd, playerStrategy=Strategies.RandomStrat@7aec35a}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@5c29bfd, playerStrategy=Strategies.RandomStrat@67424e82}
+Numéro de partie : 60
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@42110406cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@531d72ca, playerStrategy=Strategies.RandomStrat@22d8cfe0}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@531d72ca, playerStrategy=Strategies.RandomStrat@579bb367}
+Numéro de partie : 61
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1de0aca6cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@255316f2, playerStrategy=Strategies.RandomStrat@41906a77}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@255316f2, playerStrategy=Strategies.RandomStrat@4b9af9a9}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 62
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@5387f9e0cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@6e5e91e4, playerStrategy=Strategies.RandomStrat@2cdf8d8a}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@6e5e91e4, playerStrategy=Strategies.RandomStrat@30946e09}
+Numéro de partie : 63
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@5cb0d902cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@46fbb2c1, playerStrategy=Strategies.RandomStrat@1698c449}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@46fbb2c1, playerStrategy=Strategies.RandomStrat@5ef04b5}
+Numéro de partie : 64
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@5f4da5c3cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@443b7951, playerStrategy=Strategies.RandomStrat@14514713}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@443b7951, playerStrategy=Strategies.RandomStrat@69663380}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 65
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@5b37e0d2cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4459eb14, playerStrategy=Strategies.RandomStrat@5a2e4553}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4459eb14, playerStrategy=Strategies.RandomStrat@28c97a5}
+Numéro de partie : 66
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@6659c656cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@6d5380c2, playerStrategy=Strategies.RandomStrat@45ff54e6}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@6d5380c2, playerStrategy=Strategies.RandomStrat@2328c243}
+Numéro de partie : 67
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@bebdb06cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@7a4f0f29, playerStrategy=Strategies.RandomStrat@45283ce2}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@7a4f0f29, playerStrategy=Strategies.RandomStrat@2077d4de}
+Numéro de partie : 68
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@7591083dcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@77a567e1, playerStrategy=Strategies.RandomStrat@736e9adb}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@77a567e1, playerStrategy=Strategies.RandomStrat@6d21714c}
+Numéro de partie : 69
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@108c4c35cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4ccabbaa, playerStrategy=Strategies.RandomStrat@4bf558aa}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4ccabbaa, playerStrategy=Strategies.RandomStrat@2d38eb89}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 70
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@5fa7e7ffcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4629104a, playerStrategy=Strategies.RandomStrat@27f8302d}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4629104a, playerStrategy=Strategies.RandomStrat@4d76f3f8}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 71
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@2d8e6db6cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@23ab930d, playerStrategy=Strategies.RandomStrat@4534b60d}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@23ab930d, playerStrategy=Strategies.RandomStrat@3fa77460}
+Numéro de partie : 72
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@619a5dffcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@1ed6993a, playerStrategy=Strategies.RandomStrat@7e32c033}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@1ed6993a, playerStrategy=Strategies.RandomStrat@7ab2bfe1}
+Numéro de partie : 73
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@497470edcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@63c12fb0, playerStrategy=Strategies.RandomStrat@b1a58a3}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@63c12fb0, playerStrategy=Strategies.RandomStrat@6438a396}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 74
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@e2144e4cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@6477463f, playerStrategy=Strategies.RandomStrat@3d71d552}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@6477463f, playerStrategy=Strategies.RandomStrat@1cf4f579}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 75
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@18769467cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@46ee7fe8, playerStrategy=Strategies.RandomStrat@7506e922}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@46ee7fe8, playerStrategy=Strategies.RandomStrat@4ee285c6}
+Numéro de partie : 76
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@621be5d1cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@573fd745, playerStrategy=Strategies.RandomStrat@15327b79}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@573fd745, playerStrategy=Strategies.RandomStrat@4f2410ac}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 77
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@722c41f4cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@5b80350b, playerStrategy=Strategies.RandomStrat@5d6f64b1}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@5b80350b, playerStrategy=Strategies.RandomStrat@32a1bec0}
+Numéro de partie : 78
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@22927a81cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@78e03bb5, playerStrategy=Strategies.RandomStrat@5e8c92f4}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@78e03bb5, playerStrategy=Strategies.RandomStrat@61e4705b}
+Numéro de partie : 79
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@50134894cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@2957fcb0, playerStrategy=Strategies.RandomStrat@1376c05c}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@2957fcb0, playerStrategy=Strategies.RandomStrat@51521cc1}
+Numéro de partie : 80
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1b4fb997cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@deb6432, playerStrategy=Strategies.RandomStrat@28ba21f3}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@deb6432, playerStrategy=Strategies.RandomStrat@694f9431}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 81
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@f2a0b8ecases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@593634ad, playerStrategy=Strategies.RandomStrat@20fa23c1}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@593634ad, playerStrategy=Strategies.RandomStrat@3581c5f3}
+Numéro de partie : 82
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@6aa8ceb6cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@2530c12, playerStrategy=Strategies.RandomStrat@73c6c3b2}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@2530c12, playerStrategy=Strategies.RandomStrat@48533e64}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 83
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@64a294a6cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@7e0b37bc, playerStrategy=Strategies.RandomStrat@3b95a09c}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@7e0b37bc, playerStrategy=Strategies.RandomStrat@6ae40994}
+Numéro de partie : 84
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1a93a7cacases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@3d82c5f3, playerStrategy=Strategies.RandomStrat@2b05039f}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@3d82c5f3, playerStrategy=Strategies.RandomStrat@61e717c2}
+Numéro de partie : 85
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@66cd51c3cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4dcbadb4, playerStrategy=Strategies.RandomStrat@4e515669}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4dcbadb4, playerStrategy=Strategies.RandomStrat@17d10166}
+Numéro de partie : 86
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1b9e1916cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@ba8a1dc, playerStrategy=Strategies.RandomStrat@4f8e5cde}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@ba8a1dc, playerStrategy=Strategies.RandomStrat@504bae78}
+Numéro de partie : 87
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@3b764bcecases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@759ebb3d, playerStrategy=Strategies.RandomStrat@484b61fc}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@759ebb3d, playerStrategy=Strategies.RandomStrat@45fe3ee3}
+Numéro de partie : 88
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@4cdf35a9cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4c98385c, playerStrategy=Strategies.RandomStrat@5fcfe4b2}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4c98385c, playerStrategy=Strategies.RandomStrat@6bf2d08e}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 89
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@5eb5c224cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@53e25b76, playerStrategy=Strategies.RandomStrat@73a8dfcc}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@53e25b76, playerStrategy=Strategies.RandomStrat@ea30797}
+Numéro de partie : 90
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@7e774085cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@3f8f9dd6, playerStrategy=Strategies.RandomStrat@aec6354}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@3f8f9dd6, playerStrategy=Strategies.RandomStrat@1c655221}
+Cette partie est un match nul ! 
+
+Numéro de partie : 91
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@58d25a40cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@1b701da1, playerStrategy=Strategies.RandomStrat@726f3b58}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@1b701da1, playerStrategy=Strategies.RandomStrat@442d9b6e}
+Numéro de partie : 92
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@ee7d9f1cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@15615099, playerStrategy=Strategies.RandomStrat@1edf1c96}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@15615099, playerStrategy=Strategies.RandomStrat@368102c8}
+Numéro de partie : 93
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@6996db8cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@1963006a, playerStrategy=Strategies.RandomStrat@7fbe847c}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@1963006a, playerStrategy=Strategies.RandomStrat@41975e01}
+Numéro de partie : 94
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@c2e1f26cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@dcf3e99, playerStrategy=Strategies.RandomStrat@6d9c638}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@dcf3e99, playerStrategy=Strategies.RandomStrat@7dc5e7b4}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 95
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1ee0005cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@75a1cd57, playerStrategy=Strategies.RandomStrat@3d012ddd}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@75a1cd57, playerStrategy=Strategies.RandomStrat@6f2b958e}
+Le gagnant de cette partie est le joueur 2 ! 
+
+Numéro de partie : 96
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1eb44e46cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@6504e3b2, playerStrategy=Strategies.RandomStrat@515f550a}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@6504e3b2, playerStrategy=Strategies.RandomStrat@626b2d4a}
+Numéro de partie : 97
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@5e91993fcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@1c4af82c, playerStrategy=Strategies.RandomStrat@379619aa}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@1c4af82c, playerStrategy=Strategies.RandomStrat@cac736f}
+Le gagnant de cette partie est le joueur 1 ! 
+
+Numéro de partie : 98
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@5e265ba4cases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@156643d4, playerStrategy=Strategies.RandomStrat@123a439b}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@156643d4, playerStrategy=Strategies.RandomStrat@7de26db8}
+Numéro de partie : 99
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@1175e2dbcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@36aa7bc2, playerStrategy=Strategies.RandomStrat@76ccd017}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@36aa7bc2, playerStrategy=Strategies.RandomStrat@182decdb}
+Cette partie est un match nul ! 
+
+Numéro de partie : 100
+Initilisation d'une partie avec chemin de taille 7 et un nombre de pierre de 10 
+--CHEMIN & TROLL--
+Chemin{cases=[LEntities.Case;@26f0a63fcases count : 7}
+Troll{indice =3}
+--Joueurs--
+Player{stockPierre=10, posCase=0, playerNumber=1, game=common.Game@4361bd48, playerStrategy=Strategies.RandomStrat@53bd815b}
+Player{stockPierre=10, posCase=6, playerNumber=2, game=common.Game@4361bd48, playerStrategy=Strategies.RandomStrat@2401f4c3}
