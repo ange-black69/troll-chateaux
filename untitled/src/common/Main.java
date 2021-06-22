@@ -68,13 +68,19 @@ public class Main
                 e.printStackTrace();
             }*/
 
-            game = new Game(7, 10);
+            game = new Game(7, 20);
         }
 
         try {
+            fileWriter.write("nombre total de parties : " + nombreDePartie + "\n");
             fileWriter.write("nombre de victoire du J1 : " + player1WinCounter + "\n");
             fileWriter.write("nombre de victoire du J2 : " + player2WinCounter + "\n");
             fileWriter.write("nombre de de match nul : " + drawCounter + "\n");
+            fileWriter.write("------------------------------- " + "\n");
+
+            fileWriter.write("Pourcentage de victoire du joueur 1 : " + (float)(((float)player1WinCounter / (float)nombreDePartie) * 100) + "% " + "\n");
+            fileWriter.write("Pourcentage de victoire du joueur 2  : " +  (float)(((float)player2WinCounter / (float)nombreDePartie) * 100) +"% " + "\n");
+            fileWriter.write("Pourcentage de match nul  : " + (float)(((float)drawCounter / (float)nombreDePartie) * 100) +"% " + "\n");
         } catch (IOException e) {
             e.printStackTrace();
         }

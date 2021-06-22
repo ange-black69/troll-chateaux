@@ -5,7 +5,7 @@ import common.Game;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-public class RandomStrat implements IStrategy{
+public class RandomJoueur2Strat implements IStrategy{
     @Override
     public int apply(Game game, Player player, boolean simulate) {
 
@@ -18,14 +18,15 @@ public class RandomStrat implements IStrategy{
         else
         {
             // On génére un nombre aléatoire de pierre à lancer entre 1 et le nombre de pierre disponible
-            pierreALancer = ThreadLocalRandom.current().nextInt(1,player.getStockPierre());
+            pierreALancer = ThreadLocalRandom.current().nextInt(1,player.getStockPierre()/3);
         }
+
 
         if(!simulate)
         {
             if(player.lancerPierres(pierreALancer))
             {
-                System.out.println("[RandomStat] appliqué à " +  player.toString());
+                System.out.println("[RandomJoueur2Strat] appliqué au joueur 2 ");
                 return pierreALancer;
             }
         }
@@ -36,6 +37,7 @@ public class RandomStrat implements IStrategy{
                 return pierreALancer;
             }
         }
+
 
         return 0;
     }

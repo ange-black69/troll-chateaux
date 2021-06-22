@@ -4,6 +4,10 @@ import Entities.Player;
 import common.Game;
 import common.GameState;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * Class permettant de résoudre l'affrontement entre deux stratégies
  * différentes.
@@ -12,6 +16,9 @@ public class StrategySolver {
 
     private final Game game;
 
+    private List<IStrategy> strategyList;
+    private List<Integer> t;
+
     /**
      *
      * @param game
@@ -19,6 +26,36 @@ public class StrategySolver {
     public StrategySolver(Game game)
     {
         this.game = game;
+        this.strategyList = new ArrayList<IStrategy>();
+    }
+
+    /**
+     * Methode permetant de simuler une stratégie d'un joueur en fonction de l'état du jeu actuel.
+     */
+    public void simulateStrategy(Player player)
+    {
+        List<Integer> t = new ArrayList<>();
+        // copie du joueur
+        Player temp = new Player(player.getStockPierre(),player.getIndice(),player.getPlayerNumber(),game);
+
+        temp.setPlayerStrategy(new CounterOptimalStrat());
+        t.add(temp.getPlayerStrategy().apply(temp, true));
+        temp.setPlayerStrategy(new CounterOptimalStrat2());
+        t.add(temp.getPlayerStrategy().apply(temp, true));
+        temp.setPlayerStrategy(new DumbStrat());
+        t.add(temp.getPlayerStrategy().apply(temp, true));
+        temp.setPlayerStrategy(new PrudenteStrat());
+        t.add(temp.getPlayerStrategy().apply(temp, true));
+        temp.setPlayerStrategy(new PrudenteStrat20Pierres());
+        t.add(temp.getPlayerStrategy().apply(temp, true));
+        temp.setPlayerStrategy(new RandomStrat());
+        t.add(temp.getPlayerStrategy().apply(temp, true));
+        temp.setPlayerStrategy(new RandomJoueur2Strat());
+
+        Collections.sort(t);
+
+        System.out.println("t : " + t.toString());
+
     }
 
     /**

@@ -3,22 +3,23 @@ package Strategies;
 import Entities.Player;
 import common.Game;
 
-import java.util.*;
-
+import java.util.LinkedList;
 /**
- * Stratégie contrant la stratégie prudente optimale.
- * 3 4 3
+ * Une stratégie prudente
+ * 4 6 4 4 2 car il y a seulement deux configurations de défaite possible dans le cas :
  * 10 pierres; 7 cases
  * */
-public class CounterOptimalStrat implements IStrategy{
+public class PrudenteStrat20Pierres implements IStrategy{
 
-    private static LinkedList<Integer> listeDesCoups = new LinkedList<Integer>();
+    private LinkedList<Integer> listeDesCoups = new LinkedList<Integer>();
 
-    public CounterOptimalStrat()
+    public PrudenteStrat20Pierres()
     {
-        listeDesCoups.add(3);
         listeDesCoups.add(4);
-        listeDesCoups.add(3);
+        listeDesCoups.add(6);
+        listeDesCoups.add(4);
+        listeDesCoups.add(4);
+        listeDesCoups.add(2);
     }
 
     @Override
@@ -45,7 +46,6 @@ public class CounterOptimalStrat implements IStrategy{
                 return pierreAlancer;
             }
         }
-
         return 0;
     }
 }

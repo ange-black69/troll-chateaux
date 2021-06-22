@@ -1,6 +1,7 @@
 package Strategies;
 
 import Entities.Player;
+import common.Game;
 
 import java.util.*;
 
@@ -23,7 +24,7 @@ public class PrudenteStrat implements IStrategy{
     }
 
     @Override
-    public int apply(Player player) {
+    public int apply(Game game, Player player, boolean simulate) {
 
         if(listeDesCoups.isEmpty())
         {
@@ -32,10 +33,21 @@ public class PrudenteStrat implements IStrategy{
 
         int pierreAlancer = listeDesCoups.removeFirst();
 
-        if(player.lancerPierres(pierreAlancer))
+        if(!simulate)
         {
-            return pierreAlancer;
+            if(player.lancerPierres(pierreAlancer))
+            {
+                return pierreAlancer;
+            }
         }
+        else
+        {
+            if(player.simulateLancerPierres(pierreAlancer))
+            {
+                return pierreAlancer;
+            }
+        }
+
         return 0;
     }
 }

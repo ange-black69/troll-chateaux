@@ -1,6 +1,7 @@
 package Strategies;
 
 import Entities.Player;
+import common.Game;
 
 /**
  * Stratégie stupide ou le joueur lance toutes ses pierres
@@ -8,14 +9,25 @@ import Entities.Player;
 public class DumbStrat implements IStrategy{
 
     @Override
-    public int apply(Player player) {
+    public int apply(Game game, Player player, boolean simulate) {
         int currentStockPierre = player.getStockPierre();
-        if(player.lancerPierres(currentStockPierre))
-        {
-            System.out.println("[DumbStrat] appliqué à " +  player.toString());
-            return currentStockPierre;
-        }
 
+
+
+        if(!simulate)
+        {
+            if(player.lancerPierres(currentStockPierre))
+            {
+                return currentStockPierre;
+            }
+        }
+        else
+        {
+            if(player.simulateLancerPierres(currentStockPierre))
+            {
+                return currentStockPierre;
+            }
+        }
         return 0;
 
 

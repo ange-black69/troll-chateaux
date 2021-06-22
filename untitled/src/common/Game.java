@@ -50,6 +50,8 @@ public class Game {
         joueur1 = new Player(nombreDePierresDepart, 0, (short)1,this);
         joueur2 = new Player(nombreDePierresDepart, tailleChemin -1, (short)2, this);
 
+        strategySolver.simulateStrategy(joueur1);
+
         //Construit notre troll à mi-chemin des deux joueurs
         troll = new Troll(chemin,chemin.getCasesList().length / 2);
 
@@ -77,7 +79,7 @@ public class Game {
         On aurait pu placer ces deux lignes dans notre while si nous voulions faire en sorte qu'a chaque tour, un
         joueur ait la possibilité de changer de stratégie.
          */
-        joueur1.setPlayerStrategy(new PrudenteStrat());
+        joueur1.setPlayerStrategy(new PrudenteStrat20Pierres());
         joueur2.setPlayerStrategy(new RandomStrat());
 
       /*  try {
@@ -93,6 +95,9 @@ public class Game {
         /*
         Boucle principale du jeu
          */
+
+
+
         while(gameState == GameState.BEGIN)
         {
 

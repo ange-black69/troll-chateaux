@@ -56,7 +56,7 @@ public class Player extends Case {
     }
 
     public int applyStrategy() {
-        return this.playerStrategy.apply(this);
+        return this.playerStrategy.apply(game,this, false);
     }
 
     /**
@@ -86,6 +86,25 @@ public class Player extends Case {
 
             stockPierre -= nombreDePierres;
             System.out.println(toString() + " a lancé " + nombreDePierres + " pierres ! ");
+            return true;
+        }
+        return false;
+    }
+
+
+    /**
+     * simule le lancer des pierres sans en détériorer le stock
+     *
+     * @param nombreDePierres
+     * @return True si le joueur a pu les lancer; False sinon
+     */
+    public boolean simulateLancerPierres(int nombreDePierres) {
+        if (game.getGameState() == GameState.BEGIN) {
+
+            if (stockPierre < nombreDePierres) {
+                System.out.println(toString() + " stock de pierre Insufisant !");
+                return false;
+            }
             return true;
         }
         return false;
@@ -184,5 +203,13 @@ public class Player extends Case {
             game.setGameState(GameState.PLAYER_ONE_WIN);
 
         }
+    }
+
+    public short getPlayerNumber() {
+        return playerNumber;
+    }
+
+    public void setPlayerNumber(short playerNumber) {
+        this.playerNumber = playerNumber;
     }
 }
