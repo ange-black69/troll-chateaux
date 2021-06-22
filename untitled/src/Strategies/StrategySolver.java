@@ -39,17 +39,17 @@ public class StrategySolver {
         Player temp = new Player(player.getStockPierre(),player.getIndice(),player.getPlayerNumber(),game);
 
         temp.setPlayerStrategy(new CounterOptimalStrat());
-        t.add(temp.getPlayerStrategy().apply(temp, true));
+        t.add(temp.getPlayerStrategy().apply(game,temp, true));
         temp.setPlayerStrategy(new CounterOptimalStrat2());
-        t.add(temp.getPlayerStrategy().apply(temp, true));
+        t.add(temp.getPlayerStrategy().apply(game,temp, true));
         temp.setPlayerStrategy(new DumbStrat());
-        t.add(temp.getPlayerStrategy().apply(temp, true));
+        t.add(temp.getPlayerStrategy().apply(game,temp, true));
         temp.setPlayerStrategy(new PrudenteStrat());
-        t.add(temp.getPlayerStrategy().apply(temp, true));
+        t.add(temp.getPlayerStrategy().apply(game,temp, true));
         temp.setPlayerStrategy(new PrudenteStrat20Pierres());
-        t.add(temp.getPlayerStrategy().apply(temp, true));
+        t.add(temp.getPlayerStrategy().apply(game,temp, true));
         temp.setPlayerStrategy(new RandomStrat());
-        t.add(temp.getPlayerStrategy().apply(temp, true));
+        t.add(temp.getPlayerStrategy().apply(game,temp, true));
         temp.setPlayerStrategy(new RandomJoueur2Strat());
 
         Collections.sort(t);

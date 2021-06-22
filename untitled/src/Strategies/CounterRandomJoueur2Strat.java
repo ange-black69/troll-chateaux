@@ -65,7 +65,7 @@ public class CounterRandomJoueur2Strat implements IStrategy{
 
             // Petit tricks
             moyenne = moyenne+1;
-            
+
             // On lance le nombre de pierre equivalent a la moyenne calculé avant
             pierreALancer = (int)moyenne;
         }
